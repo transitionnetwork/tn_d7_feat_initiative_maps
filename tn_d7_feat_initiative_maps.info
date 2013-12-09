@@ -1,0 +1,14 @@
+name = Transition Network: Initiative maps
+description = Views and pages for displaying maps of initiatives.
+core = 7.x
+package = Transition Network
+dependencies[] = ip_geoloc
+dependencies[] = leaflet_views
+dependencies[] = tn_d7_feat_base
+dependencies[] = tn_d7_feat_initiative_base
+dependencies[] = views
+dependencies[] = views_content
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = tn_initiatives_maps
+features_exclude[dependencies][ctools] = ctools

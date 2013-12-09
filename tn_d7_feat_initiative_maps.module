@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Transition Network: Initiatives maps feature.
+ */
+
+include_once 'tn_d7_feat_initiative_maps.features.inc';
